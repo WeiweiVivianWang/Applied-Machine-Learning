@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Calculating an average of an array &#8212; HW1Task3Task4 1.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="TASK 4" href="task_4.html" />
+    <link rel="prev" title="TASK 3" href="task_3.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="calculating-an-average-of-an-array">
+<h1>Calculating an average of an array<a class="headerlink" href="#calculating-an-average-of-an-array" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>In this function, we will input a numpy array as well as an “axis” argument. The objective of the function is to take an average along an axis: rows, columns, or the entire matrix. If 0 is the axis, then the function will return the average of rows. If 1 is the axis, the function will return the average of columns. If “None” is the input, the mean of all entries of the matrix is returned.</p>
+<p>To illustrate how this function works by example, suppose we input a 2d-numpy array:</p>
+<div class="math">
+\[\begin{split}array=\begin{bmatrix}
+1&amp;2&amp;3\\
+3&amp;4&amp;5\\
+5&amp;6&amp;7\\
+\end{bmatrix}\end{split}\]</div>
+<p>If the input is 0, then the function will return the average of each row. For example, for the first row, if there are c columns, it will compute the summation of row 1 is 6 and will return the mean of row 1 is 2.</p>
+<p>It will repeat this for each row and eventually return an array, of values for each row:</p>
+<div class="math">
+\[\begin{split}array=\begin{bmatrix}
+2\\
+4\\
+6\\
+\end{bmatrix}\end{split}\]</div>
+<p>If the input is 1, then the function will return the average of each column, with the same formula, except summing over the columns instead of rows and returning the respective standard deviations.</p>
+<p>If the input is “None”, then the output will be a scalar that is the average of the entire matrix.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Calculating an average of an array</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="task_3.html">TASK 3</a><ul>
+      <li>Previous: <a href="task_3.html" title="previous chapter">TASK 3</a></li>
+      <li>Next: <a href="task_4.html" title="next chapter">TASK 4</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/t3Readme.py.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, WeiweiWang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/t3Readme.py.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
