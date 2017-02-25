@@ -1,5 +1,16 @@
-# homework-i-WeiweiVivianWang
-#Name: Weiwei Wang
-#Uni: ww2439
-#homework-i-WeiweiVivianWang created by GitHub Classroom
-#This master branch contains four folders for task1, task2, task3 and task4 for homework1.
+# GitHub Repository for Homework 1
+
+### COMS 4995: Applied Machine Learning, Spring 2017
+
+
+##### Group Members:
+
+
+- [Weiwei Wang](https://github.com/WeiweiVivianWang) (ww2439)
+
+##### Files:
+
+- task1
+- task2
+- task3
+- task4
